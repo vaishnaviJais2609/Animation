@@ -7,9 +7,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="all">
-    <canvas class="can"></canvas>
-    <button id="bt">START</button>
+
+    <div class="game">
+        <header>
+            <h1>Sorting Adventure</h1>
+            <p>Help the character sort the numbers!</p>
+        </header>
+
+        <div class="controls">
+            <input type="text" id="arrayInput" placeholder="45 7 123 2 89">
+
+            <button id="createBtn"> Create Array</button>
+            <p id="message"></p>
+         </div>
+        <canvas id="canvas" width="1000" height="500"></canvas>
     </div>
     <script src="logic.js"></script>
 </body>
