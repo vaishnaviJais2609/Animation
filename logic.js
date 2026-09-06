@@ -6,7 +6,7 @@ const input = document.getElementById("arrayInput");
 const createBtn = document.getElementById("createBtn");
 const message = document.getElementById("message");
 
-canvas.width = 1000;
+canvas.width = 1000; 
 canvas.height = 500;
 
 const sprite = new Image();
